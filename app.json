@@ -1,0 +1,35 @@
+{
+    "name": "Deadly Spam Bot",
+    "description": "MOST POWERFUL + STABLE SPAM USERBOTS",
+    "logo": "",
+    "keywords": [
+        "telegram",
+        "telethon",
+        "telegram-bot",
+        "deadlySameer",
+        "SpamBots"
+    ],
+    "repository": "https://t.me/Deadly-Fighters",
+    "website": "https://t.me/Deadly-Fighters",
+    "success_url": "https://t.me/deadly-fighters",
+    "env": {
+             "apiID": {
+        "description": "Fill Api ID Take this value from My.telegram.org",
+        "value": "",
+        "required": true
+      }
+    },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+  "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
